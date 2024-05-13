@@ -6,6 +6,13 @@
       "date": "2024-05-30",
       "notes": "Run from Rongai to CUEA",
       "id": 2
+    },
+    {
+      "exercise": "Cooking",
+      "duration": "12",
+      "date": "2024-05-22",
+      "notes": "rice n beans",
+      "id": 3
     }
   ]
 }
