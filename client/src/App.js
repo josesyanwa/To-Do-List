@@ -74,11 +74,9 @@ function App() {
   return (
     <Router>
       <div>
-        {/* Header */}
-        {/* Uncomment the following line if you're using NavBar */}
+        
         <header><NavBar /></header>
 
-        {/* Main Content */}
         <main>
           <Routes>
             <Route path="/" element={<Home />} />
@@ -99,16 +97,14 @@ function App() {
           </Routes>
         </main>
 
-        {/* Footer */}
-        <footer>
-          <p>GROUP SEVEN</p>
-        </footer>
+        
       </div>
     </Router>
   );
 }
 
 // Home component
+
 const Home = () => {
   return <h1>To Do List</h1>;
 };
