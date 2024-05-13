@@ -41,7 +41,7 @@ function TodoCard({
       <Card.Body>
         <Form>
           <Form.Group controlId="formExercise">
-            <Form.Label>Exercise</Form.Label>
+            <Form.Label>Task</Form.Label>
             <Form.Control
               type="text"
               name="exercise"

@@ -1,18 +1,11 @@
 {
   "workouts": [
     {
-      "exercise": "kulala",
-      "duration": "30",
-      "date": "2024-05-22",
-      "notes": "qww",
-      "id": 24
-    },
-    {
-      "exercise": "Going to school",
+      "exercise": "Singing",
       "duration": "30",
       "date": "2024-05-29",
-      "notes": "sswws",
-      "id": 25
+      "notes": "Singing hallelujay",
+      "id": 1
     }
   ]
 }

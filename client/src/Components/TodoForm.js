@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import '../App.css'; 
+import './TodoForm.css';
+
 
 function TodoForm({ onAddWorkout }) {
   const [workoutDetails, setWorkoutDetails] = useState({
@@ -57,7 +58,7 @@ function TodoForm({ onAddWorkout }) {
     <form onSubmit={handleSubmit} className="workout-form">
       <div className="form-group">
         <label>
-          Exercise:
+          Task:
           <input
             type="text"
             name="exercise"
