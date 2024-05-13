@@ -12,7 +12,7 @@ const TodList = ({
 
   return (
     <div className="card-container">
-      <h2>Workout List</h2>
+      <h2>My list of Tasks</h2>
       <ul>
         {workouts &&
     

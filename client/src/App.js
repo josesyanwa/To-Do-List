@@ -4,7 +4,6 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import NavBar from './Components/NavBar';
 import TodoForm from './Components/TodoForm';
 import TodList from './Components/TodList';
-import './App.css';
 
 function App() {
   const [workouts, setWorkouts] = useState([]);
