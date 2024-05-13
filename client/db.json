@@ -13,6 +13,13 @@
       "date": "2024-05-22",
       "notes": "rice n beans",
       "id": 3
+    },
+    {
+      "exercise": "Swimming",
+      "duration": "23",
+      "date": "2024-05-29",
+      "notes": "I'll swim in River Nzoia",
+      "id": 4
     }
   ]
 }
