@@ -21,6 +21,8 @@ function TodoForm({ onAddWorkout }) {
   function handleSubmit(e) {
     e.preventDefault();
 
+      // post new task
+
     fetch('http://localhost:3001/workouts', {  
       method: 'POST',
       headers: {
@@ -38,7 +40,6 @@ function TodoForm({ onAddWorkout }) {
         
         console.log('Workout details saved:', data);
 
-         // Call the onAddWorkout function with the new workout details
          onAddWorkout(data);
 
         setWorkoutDetails({

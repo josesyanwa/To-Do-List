@@ -1,4 +1,4 @@
-// App.js
+
 import React, { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import NavBar from './Components/NavBar';
@@ -105,7 +105,7 @@ function App() {
 // Home component
 
 const Home = () => {
-  return <h1>To Do List</h1>;
+  return <h1>My To-Do List</h1>;
 };
 
 export default App;
